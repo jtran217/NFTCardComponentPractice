@@ -14,8 +14,9 @@ body {
 }
 
 .card {
-    box-shadow: 0 0 0 20px hsl(216, 50%, 16%);
-    background-color: hsl(215, 32%, 27%);
+    box-shadow: 0 0 0 40px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 0 40px 0 rgba(0, 0, 0, 0.75);
+    background-color: #14253d;
     border-radius: 4%;
     margin: auto;
     margin-top: 10%;
@@ -28,7 +29,7 @@ body {
 
 @media only screen and (min-width:1600px) {
     .card {
-        max-width: 20%;
+        max-width: 18%;
         max-height: 50%;
     }
 }
