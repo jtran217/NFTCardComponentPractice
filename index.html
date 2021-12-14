@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | NFT preview card component</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <title>Frontend Mentor | NFT preview card component</title>
 
+</head>
 
-
-    <body>
-
-        <div class="card">
-            <div class="container">
-                <div class="image-container">
-                    <img class="main-img" src="./images/image-equilibrium.jpg">
-                    <div class="img-overlay">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 12c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3 3 1.346 3 3zm9-.449s-4.252 8.449-11.985 8.449c-7.18 0-12.015-8.449-12.015-8.449s4.446-7.551 12.015-7.551c7.694 0 11.985 7.551 11.985 7.551zm-7 .449c0-2.757-2.243-5-5-5s-5 2.243-5 5 2.243 5 5 5 5-2.243 5-5z"/></svg>
-                    </div>
-                </div>
-                <h4>Equilibrium #3429 </h4>
-                <p>Our Equilibrium collection promotes balance and calm.</p>
-                <div class="eth-container">
-                    <p style="color:hsl(178, 100%, 50%)"><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041 ETH</p>
-                    <p><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>                        3 days left</p>
-                </div>
-                <hr>
-                <div class="creator-box">
-                    <img class="avatar-img" src="./images/image-avatar.png">
-                    <p>Creation of <a href="#">Jules Wyvern</a></p>
-                </div>
-
+<body>
+    <div class="card">
+        <div class="img-container">
+            <img src="./images/image-equilibrium.jpg">
+            <div class="overlay-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 12c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3 3 1.346 3 3zm9-.449s-4.252 8.449-11.985 8.449c-7.18 0-12.015-8.449-12.015-8.449s4.446-7.551 12.015-7.551c7.694 0 11.985 7.551 11.985 7.551zm-7 .449c0-2.757-2.243-5-5-5s-5 2.243-5 5 2.243 5 5 5 5-2.243 5-5z"/></svg>
             </div>
         </div>
+        <div class="main-content">
+            <h3>Equilibrium #3429 </h3>
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+            <div class="main-subcontent">
+                <p style="color: hsl(178, 100%, 50%);font-weight: 400;"> <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041 ETH </p>
+                <p><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>                    3 days left</p>
+            </div>
+        </div>
+        <hr>
+        <div class="creator-content">
+            <img src="images/image-avatar.png">
+            <p>Creation of <a style="color: white; text-decoration: none;" href="#">Jules Wyvern</a></p>
+        </div>
+    </div>
 
-
-        <!-- <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
-        </div> -->
-
-    </body>
+</body>
 
 </html>
